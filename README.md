@@ -1,12 +1,12 @@
 # bootcamp-proyecto-final
 Reposotorio para demostración de proyecto final de bootcamp python 2
-# 🚕 Modelo Predictivo de Demanda Espaciotemporal de Taxis en Nueva York
+#  Modelo Predictivo de Demanda Espaciotemporal de Taxis en Nueva York
 
 Sistema inteligente que predice la demanda de taxis por zona y franja horaria en la ciudad de Nueva York, utilizando datos históricos y técnicas de *Machine Learning* para optimizar la distribución de unidades y reducir los tiempos de espera de los pasajeros.
 
 ---
 
-## 🏷️ BADGES
+##  BADGES
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-orange)
@@ -16,7 +16,7 @@ Sistema inteligente que predice la demanda de taxis por zona y franja horaria en
 
 ---
 
-## 🎯 PROBLEMA QUE RESUELVE (El "Por qué")
+##  PROBLEMA QUE RESUELVE (El "Por qué")
 
 La empresa de taxis de Nueva York enfrenta desequilibrios entre la oferta y la demanda de vehículos en distintas zonas y horarios.  
 Actualmente, la planificación operativa se basa en la experiencia de los supervisores, lo que genera:
@@ -29,7 +29,7 @@ Este proyecto busca **anticipar los picos de demanda** mediante un modelo predic
 
 ---
 
-## 💡 SOLUCIÓN PROPUESTA (El "Qué")
+##  SOLUCIÓN PROPUESTA (El "Qué")
 
 Se desarrolla un sistema de predicción de demanda que:
 - Analiza patrones históricos de viajes, horarios y ubicación.  
@@ -45,18 +45,18 @@ Se desarrolla un sistema de predicción de demanda que:
 
 ---
 
-## ⚙️ CARACTERÍSTICAS PRINCIPALES (Features)
+##  CARACTERÍSTICAS PRINCIPALES (Features)
 
-- 📅 Análisis temporal (hora, día, semana, temporada).  
-- 🌍 Segmentación espacial de la ciudad mediante clustering geográfico.  
-- 🤖 Entrenamiento de modelos de regresión y series de tiempo.  
-- 📊 Dashboard visual para la interpretación de resultados.  
-- 🧠 Predicciones automáticas de demanda para distintos escenarios.  
-- 🧾 Reporte con métricas de evaluación y recomendaciones.
+-  Análisis temporal (hora, día, semana, temporada).  
+-  Segmentación espacial de la ciudad mediante clustering geográfico.  
+-  Entrenamiento de modelos de regresión y series de tiempo.  
+-  Dashboard visual para la interpretación de resultados.  
+-  Predicciones automáticas de demanda para distintos escenarios.  
+-  Reporte con métricas de evaluación y recomendaciones.
 
 ---
 
-## 🧠 TECNOLOGÍAS UTILIZADAS (Tech Stack)
+##  TECNOLOGÍAS UTILIZADAS (Tech Stack)
 
 **Lenguaje principal:**  
 - Python 3.10+
@@ -75,7 +75,7 @@ Se desarrolla un sistema de predicción de demanda que:
 
 ---
 
-## 📊 Dataset utilizado
+##  Dataset utilizado
 
 **Fuente:**  
 [NYC Yellow Taxi Trip Data - Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data)
@@ -91,18 +91,18 @@ Se desarrolla un sistema de predicción de demanda que:
 
 ---
 
-## 🚀 Estado del proyecto
-> 🔧 En desarrollo — primera versión del modelo y dashboard en construcción.
+##  Estado del proyecto
+>  En desarrollo — primera versión del modelo y dashboard en construcción.
 
 ---
 
-## 📜 Licencia
+##  Licencia
 Este proyecto se distribuye bajo la licencia **MIT**.  
 Puedes usarlo, modificarlo y adaptarlo libremente con atribución.
 
 ---
 
-## 👤 Autor
+##  Autor
 **William Castillo**  
 Proyecto académico — Ciencia de Datos Aplicada  
-📍 Basado en dataset público de la NYC Taxi & Limousine Commission
+Basado en dataset público de la NYC Taxi & Limousine Commission
