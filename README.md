@@ -106,3 +106,88 @@ Puedes usarlo, modificarlo y adaptarlo libremente con atribución.
 **William Castillo**  
 Proyecto académico — Ciencia de Datos Aplicada  
 Basado en dataset público de la NYC Taxi & Limousine Commission
+
+## Estructura del proyecto
+bootcamp-proyecto-final/
+│
+├── data/ # Datos del proyecto
+│ ├── external/ # Dataset descargado desde Kaggle
+│ ├── interim/ # Datos intermedios (procesamiento)
+│ └── processed/ # Datos limpios y listos para el modelo
+│
+├── docs/ # Documentación y reportes
+│ ├── data_dictionary.md
+│ ├── model_card.md
+│ └── proyect_charter.md
+│
+├── models/ # Modelos entrenados (archivos .pkl o similares)
+│
+├── notebook/ # Notebooks Jupyter (EDA o pruebas)
+│
+├── reports/figures/ # Gráficos y visualizaciones
+│
+├── src/ # Código fuente del proyecto
+│ ├── data/ # Scripts para obtención y limpieza de datos
+│ │ ├── clean_dataset.py
+│ │ ├── make_dataset.py
+│ │ └── nyc_taxi_demand_linear_timeseries.py
+│ ├── features/ # Generación de features
+│ │ └── build_features.py
+│ ├── models/ # Entrenamiento y predicción
+│ │ ├── train_model.py
+│ │ └── predict_model.py
+│ ├── visualization/ # Gráficos y visualización
+│ │ └── visualize.py
+│ └── tests/ # Scripts de testing
+│ ├── test_data.py
+│ └── test_models.py
+│
+├── requirements.txt # Dependencias del proyecto
+├── setup.py # Script de instalación
+├── LICENSE # Licencia del proyecto (MIT)
+└── README.md # Este archivo
+
+## Instalación
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/WACD70/bootcamp-proyecto-final.git
+cd bootcamp-proyecto-final
+```
+
+### 2. Crear un entorno virtual (recomendado)
+```bash
+# En Linux/Mac
+python -m venv venv
+source venv/bin/activate
+
+# En Windows
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Instalar dependencias
+```bash
+pip install -r requirements.txt
+```
+
+## Uso
+
+### Ejecutar el pipeline completo
+```bash
+# 1. Limpiar y preparar los datos
+python src/data/clean_dataset.py
+
+# 2. Entrenar el modelo
+python src/models/train_model.py
+
+# 3. Generar predicciones
+python src/models/predict_model.py
+
+# 4. Crear visualizaciones
+python src/visualization/visualize.py
+```
+
+## Autor
+**WACD70**
+- GitHub: [@WACD70](https://github.com/WACD70)
