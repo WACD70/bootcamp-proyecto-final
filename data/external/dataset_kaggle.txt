@@ -1,0 +1,2 @@
+#link de donde se extrae la información principal
+https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data
