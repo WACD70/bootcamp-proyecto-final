@@ -109,41 +109,36 @@ Basado en dataset público de la NYC Taxi & Limousine Commission
 
 ## Estructura del proyecto
 bootcamp-proyecto-final/
-│
 ├── data/                          # 📊 Datos del proyecto
 │   ├── external/                  # Dataset descargado desde Kaggle
 │   ├── interim/                   # Datos intermedios (procesamiento)
 │   └── processed/                 # Datos limpios y listos para el modelo
 │
 ├── docs/                          # 📚 Documentación y reportes
-│   ├── data_dictionary.md         # Diccionario de datos
-│   ├── model_card.md              # Descripción del modelo
-│   └── project_charter.md         # Charter del proyecto
+│   ├── data_dictionary.md
+│   ├── model_card.md
+│   └── project_charter.md
 │
 ├── models/                        # 🤖 Modelos entrenados (.pkl)
 │
 ├── notebooks/                     # 📓 Notebooks Jupyter (EDA)
 │
 ├── reports/                       # 📈 Reportes y visualizaciones
-│   └── figures/                   # Gráficos generados
+│   └── figures/
 │
 ├── src/                           # 💻 Código fuente
-│   ├── data/                      # Scripts de datos
-│   │   ├── clean_dataset.py       # Limpieza de datos
-│   │   ├── make_dataset.py        # Generación de dataset
+│   ├── data/
+│   │   ├── clean_dataset.py
+│   │   ├── make_dataset.py
 │   │   └── nyc_taxi_demand_linear_timeseries.py
-│   │
-│   ├── features/                  # Ingeniería de features
+│   ├── features/
 │   │   └── build_features.py
-│   │
-│   ├── models/                    # Entrenamiento y predicción
+│   ├── models/
 │   │   ├── train_model.py
 │   │   └── predict_model.py
-│   │
-│   ├── visualization/             # Visualizaciones
+│   ├── visualization/
 │   │   └── visualize.py
-│   │
-│   └── tests/                     # 🧪 Tests unitarios
+│   └── tests/
 │       ├── test_data.py
 │       └── test_models.py
 │
