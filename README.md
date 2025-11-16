@@ -110,42 +110,47 @@ Basado en dataset público de la NYC Taxi & Limousine Commission
 ## Estructura del proyecto
 bootcamp-proyecto-final/
 │
-├── data/ # Datos del proyecto
-│ ├── external/ # Dataset descargado desde Kaggle
-│ ├── interim/ # Datos intermedios (procesamiento)
-│ └── processed/ # Datos limpios y listos para el modelo
+├── data/                          # 📊 Datos del proyecto
+│   ├── external/                  # Dataset descargado desde Kaggle
+│   ├── interim/                   # Datos intermedios (procesamiento)
+│   └── processed/                 # Datos limpios y listos para el modelo
 │
-├── docs/ # Documentación y reportes
-│ ├── data_dictionary.md
-│ ├── model_card.md
-│ └── proyect_charter.md
+├── docs/                          # 📚 Documentación y reportes
+│   ├── data_dictionary.md         # Diccionario de datos
+│   ├── model_card.md              # Descripción del modelo
+│   └── project_charter.md         # Charter del proyecto
 │
-├── models/ # Modelos entrenados (archivos .pkl o similares)
+├── models/                        # 🤖 Modelos entrenados (.pkl)
 │
-├── notebook/ # Notebooks Jupyter (EDA o pruebas)
+├── notebooks/                     # 📓 Notebooks Jupyter (EDA)
 │
-├── reports/figures/ # Gráficos y visualizaciones
+├── reports/                       # 📈 Reportes y visualizaciones
+│   └── figures/                   # Gráficos generados
 │
-├── src/ # Código fuente del proyecto
-│ ├── data/ # Scripts para obtención y limpieza de datos
-│ │ ├── clean_dataset.py
-│ │ ├── make_dataset.py
-│ │ └── nyc_taxi_demand_linear_timeseries.py
-│ ├── features/ # Generación de features
-│ │ └── build_features.py
-│ ├── models/ # Entrenamiento y predicción
-│ │ ├── train_model.py
-│ │ └── predict_model.py
-│ ├── visualization/ # Gráficos y visualización
-│ │ └── visualize.py
-│ └── tests/ # Scripts de testing
-│ ├── test_data.py
-│ └── test_models.py
+├── src/                           # 💻 Código fuente
+│   ├── data/                      # Scripts de datos
+│   │   ├── clean_dataset.py       # Limpieza de datos
+│   │   ├── make_dataset.py        # Generación de dataset
+│   │   └── nyc_taxi_demand_linear_timeseries.py
+│   │
+│   ├── features/                  # Ingeniería de features
+│   │   └── build_features.py
+│   │
+│   ├── models/                    # Entrenamiento y predicción
+│   │   ├── train_model.py
+│   │   └── predict_model.py
+│   │
+│   ├── visualization/             # Visualizaciones
+│   │   └── visualize.py
+│   │
+│   └── tests/                     # 🧪 Tests unitarios
+│       ├── test_data.py
+│       └── test_models.py
 │
-├── requirements.txt # Dependencias del proyecto
-├── setup.py # Script de instalación
-├── LICENSE # Licencia del proyecto (MIT)
-└── README.md # Este archivo
+├── requirements.txt               # 📦 Dependencias
+├── setup.py                       # ⚙️ Instalación del proyecto
+├── LICENSE                        # 📄 Licencia MIT
+└── README.md                      # 📖 Este archivo
 
 ## Instalación
 
@@ -187,6 +192,14 @@ python src/models/predict_model.py
 # 4. Crear visualizaciones
 python src/visualization/visualize.py
 ```
+
+
+## Resultado final
+
+- El sistema genera:
+- Predicciones en formato .csv o .pkl
+- Gráficos de demanda por zona y hora
+- Reporte con métricas del modelo (MAE, RMSE, R²)
 
 ## Autor
 **WACD70**
