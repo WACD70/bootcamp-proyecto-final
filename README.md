@@ -140,6 +140,19 @@ bootcamp-proyecto-final/
 ├── setup.py
 ├── LICENSE
 └── README.md
+
+# Roadmap y contribucion
+1. **hotfix: eliminando código basura** — `b9f571b`
+2. **Merge pull request #4 from WACD70/develop** — `860b6d7`
+3. **feat: agregando desarrollo de proyecto final** — `736acde`
+4. **Merge pull request #3 from WACD70/main** — `8a94e1f`
+5. **Merge pull request #2 from WACD70/wc-readme-coniff** — `05d8087`
+6. **Merge pull request #1 from WACD70/wc-creacion-archivos** — `1f31fef`
+7. **fix: eliminando texto innecesario** — `6ef7814`
+8. **feat: agregando primera documentación al readme** — `123930b`
+9. **feat: agregando archivos según lo solicitado en la bitácora** — `dad0669`
+10. **Initial commit** — `126ef8f`
+
 ## Instalación
 
 ### 1. Clonar el repositorio
