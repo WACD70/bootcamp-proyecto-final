@@ -109,24 +109,19 @@ Basado en dataset público de la NYC Taxi & Limousine Commission
 
 ## Estructura del proyecto
 bootcamp-proyecto-final/
-├── data/ # 📊 Datos del proyecto
-│ ├── external/ # Dataset descargado desde Kaggle
-│ ├── interim/ # Datos intermedios (procesamiento)
-│ └── processed/ # Datos limpios y listos para el modelo
-│
-├── docs/ # 📚 Documentación y reportes
+├── data/
+│ ├── external/
+│ ├── interim/
+│ └── processed/
+├── docs/
 │ ├── data_dictionary.md
 │ ├── model_card.md
 │ └── project_charter.md
-│
-├── models/ # 🤖 Modelos entrenados (.pkl)
-│
-├── notebooks/ # 📓 Notebooks Jupyter (EDA)
-│
-├── reports/ # 📈 Reportes y visualizaciones
+├── models/
+├── notebooks/
+├── reports/
 │ └── figures/
-│
-├── src/ # 💻 Código fuente
+├── src/
 │ ├── data/
 │ │ ├── clean_dataset.py
 │ │ ├── make_dataset.py
@@ -141,12 +136,10 @@ bootcamp-proyecto-final/
 │ └── tests/
 │ ├── test_data.py
 │ └── test_models.py
-│
-├── requirements.txt # 📦 Dependencias
-├── setup.py # ⚙️ Instalación del proyecto
-├── LICENSE # 📄 Licencia MIT
-└── README.md # 📖 Este archivo
-
+├── requirements.txt
+├── setup.py
+├── LICENSE
+└── README.md
 ## Instalación
 
 ### 1. Clonar el repositorio
