@@ -109,43 +109,43 @@ Basado en dataset público de la NYC Taxi & Limousine Commission
 
 ## Estructura del proyecto
 bootcamp-proyecto-final/
-├── data/                          # 📊 Datos del proyecto
-│   ├── external/                  # Dataset descargado desde Kaggle
-│   ├── interim/                   # Datos intermedios (procesamiento)
-│   └── processed/                 # Datos limpios y listos para el modelo
+├── data/ # 📊 Datos del proyecto
+│ ├── external/ # Dataset descargado desde Kaggle
+│ ├── interim/ # Datos intermedios (procesamiento)
+│ └── processed/ # Datos limpios y listos para el modelo
 │
-├── docs/                          # 📚 Documentación y reportes
-│   ├── data_dictionary.md
-│   ├── model_card.md
-│   └── project_charter.md
+├── docs/ # 📚 Documentación y reportes
+│ ├── data_dictionary.md
+│ ├── model_card.md
+│ └── project_charter.md
 │
-├── models/                        # 🤖 Modelos entrenados (.pkl)
+├── models/ # 🤖 Modelos entrenados (.pkl)
 │
-├── notebooks/                     # 📓 Notebooks Jupyter (EDA)
+├── notebooks/ # 📓 Notebooks Jupyter (EDA)
 │
-├── reports/                       # 📈 Reportes y visualizaciones
-│   └── figures/
+├── reports/ # 📈 Reportes y visualizaciones
+│ └── figures/
 │
-├── src/                           # 💻 Código fuente
-│   ├── data/
-│   │   ├── clean_dataset.py
-│   │   ├── make_dataset.py
-│   │   └── nyc_taxi_demand_linear_timeseries.py
-│   ├── features/
-│   │   └── build_features.py
-│   ├── models/
-│   │   ├── train_model.py
-│   │   └── predict_model.py
-│   ├── visualization/
-│   │   └── visualize.py
-│   └── tests/
-│       ├── test_data.py
-│       └── test_models.py
+├── src/ # 💻 Código fuente
+│ ├── data/
+│ │ ├── clean_dataset.py
+│ │ ├── make_dataset.py
+│ │ └── nyc_taxi_demand_linear_timeseries.py
+│ ├── features/
+│ │ └── build_features.py
+│ ├── models/
+│ │ ├── train_model.py
+│ │ └── predict_model.py
+│ ├── visualization/
+│ │ └── visualize.py
+│ └── tests/
+│ ├── test_data.py
+│ └── test_models.py
 │
-├── requirements.txt               # 📦 Dependencias
-├── setup.py                       # ⚙️ Instalación del proyecto
-├── LICENSE                        # 📄 Licencia MIT
-└── README.md                      # 📖 Este archivo
+├── requirements.txt # 📦 Dependencias
+├── setup.py # ⚙️ Instalación del proyecto
+├── LICENSE # 📄 Licencia MIT
+└── README.md # 📖 Este archivo
 
 ## Instalación
 
